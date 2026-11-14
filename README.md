@@ -51,3 +51,9 @@ python3 app.py
   to finish". I used `ps -p 2594 -o pid,cmd` to see that an earlier
 `dnf install` (run without `-y`) was stuck waiting for a yes/no answer. I stopped it with `sudo kill -9 2594` and
  reran the install with `-y` so it couldn't get stuck again
+
+##Deactivate##
+```bash
+deactivate
+```
+## Stop the Instance ##
