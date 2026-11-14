@@ -1,0 +1,8 @@
+Day1: launched EC2 instance, learned pwd ls mkdir cd nano
+Day 1: Flask app running on EC2 port 5000 - /- when someone visits /, run the function below it
+					    /health - returns {"status": "ok"}.
+						      A load balancer will check this later to see if the server is alive
+					    /load - keeps the CPU busy for 5 seconds. Later this triggers autoscaling
+all work. 
+Fixed missing quote SyntaxError.
+
