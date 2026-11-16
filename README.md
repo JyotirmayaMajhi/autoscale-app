@@ -24,7 +24,7 @@ sudo dnf install -y python3-pip git
 
 ### 3. Download the code
 ```bash
-git clone https://github.com/YOUR-USERNAME/autoscale-app.git
+git clone https://github.com/JyotirmayaMajhi/autoscale-app.git
 cd autoscale-app
 ```
 
